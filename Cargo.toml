@@ -1,0 +1,10 @@
+[package]
+name = "tapa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+itertools = "0.13.0"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.120"
